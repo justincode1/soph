@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-DSViper Android - Advanced Android Payload Generation Framework
+Viper Android - Advanced Android Payload Generation Framework
 Standalone Android-focused implementation with EDR evasion capabilities
 Adapted from DS Viper for Android ARM64 environments
 
-Author: Android Security Research Team
+Author: Sai
 Target: Android API 21+ (ARM/ARM64) with EDR bypass
 """
 
